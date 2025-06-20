@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
+import Hero from './Components/Hero/Hero';
 
 import Home from './Pages/Home';
 import Diagnosis from './Pages/Diagnosis';
@@ -23,6 +24,7 @@ function App() {
           <Route path='/Login' element={<SigninSignup />} />
         </Routes>
       </BrowserRouter>
+      <Hero />
     </div>
   );
 }

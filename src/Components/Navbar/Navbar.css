@@ -1,68 +1,70 @@
 .navbar{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    box-sizing:border-box; 
-    padding: 0 16px;
-    box-shadow: 0 1px 3px -2px black;
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  background:transparent;
+  width: 100%;
+  box-sizing:border-box; 
+  padding: 0 16px;
+  box-shadow: 0 1px 3px -2px black;
 }
 .nav-logo{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .nav-menu{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    color: blue;
-    font-size: 20px;
-    font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: blue;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .nav-menu li{
-    display: flex;
-    text-decoration: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    gap: 3px;
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 3px;
 }
 
 .nav-menu hr{
-    border: none;
-    height: 3px;
-    width: 80%;
-    border-radius: 30px;
-    box-shadow: 0 1px 3px -2px black;
-    background: red;
+  border: none;
+  height: 3px;
+  width: 80%;
+  border-radius: 30px;
+  box-shadow: 0 1px 3px -2px black;
+  background: red;
 
 }
 
 .nav-login{
-    display: flex;
-    align-items: center;
-    gap: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 
 .nav-login button{
-    outline: none;
-    border: 20px ;
-    border-radius: 50px;
-    color: white;
-    padding: 15px 20px;
-    font-size: 20px;
-    font-weight: 500;
-    background: rgb(48, 114, 139);
-    cursor: pointer;
+  outline: none;
+  border: 20px ;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  background: rgb(48, 114, 139);
+  cursor: pointer;
 }
 
 .nav-login button:hover{
-    background: skyblue;
+  background: skyblue;
 }
 
 .nav-login button:active{
-    background: rgb(48, 114, 139);
+  background: rgb(48, 114, 139);
 }
