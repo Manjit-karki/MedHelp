@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 const easeInOutCubic = t =>
   t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
@@ -26,9 +28,13 @@ const smoothScrollTo = (element, duration = 1500) => {
 };
 
 export const useSmoothScrollOnState = (ref, locationState, targetStateValue) => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     if (locationState?.scrollTo === targetStateValue && ref?.current) {
       smoothScrollTo(ref.current);
+
+      navigate('.', { replace: true, state: {} });
     }
   }, [locationState, ref, targetStateValue]);
 };

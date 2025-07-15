@@ -22,32 +22,6 @@ html, body {
   text-align: center;
 }
 
-.emergency-section{
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(rgba(8, 0, 8, 0.7), rgba(8, 0, 8, 0.7)), url('../Assets/emergency.png');
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  background-color: #ffe6e6;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-.services-section{
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(rgba(8, 0, 8, 0.7), rgba(8, 0, 8, 0.7)), url('../Assets/services.png');
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  background-color: #e6f7ff;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
 .section-content {
   max-width: 800px;
   margin: 0 auto;
