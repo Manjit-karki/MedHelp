@@ -5,7 +5,56 @@
   text-align: center;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 .a {
   text-decoration: none;
   color: inherit;
 }
+
+.emergency-section,
+.services-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.emergency-section{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(8, 0, 8, 0.7), rgba(8, 0, 8, 0.7)), url('../Assets/emergency.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-color: #ffe6e6;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.services-section{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(8, 0, 8, 0.7), rgba(8, 0, 8, 0.7)), url('../Assets/services.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-color: #e6f7ff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-content h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
